@@ -27,7 +27,7 @@ public class ShapeTriangle extends Shape{
             Console.readValue("Base of a Triangle: ", 100000, 0);
         }else {
             tempResult = sumOfSides * (sumOfSides - getSides()[0]) * (sumOfSides - getSides()[1]) * (sumOfSides - getBase());
-
+            System.out.println("Sucess");
         }
 
         return Math.sqrt(tempResult);
